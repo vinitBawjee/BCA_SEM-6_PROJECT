@@ -1,0 +1,13 @@
+.pending_payment {
+    height: 820px;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.card {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}

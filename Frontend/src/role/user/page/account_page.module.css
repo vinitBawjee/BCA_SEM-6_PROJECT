@@ -1,0 +1,14 @@
+.user_account {
+    height: 820px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_account_col {
+    width: 322px;
+}
+
+.user_account_col2 {
+    width: 100%;
+}

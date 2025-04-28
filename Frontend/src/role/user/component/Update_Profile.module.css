@@ -1,0 +1,40 @@
+.container {
+    height: 820px;
+    overflow: auto;
+    padding: 2rem;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.signup_form {
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.signup_form_field {
+    height: 95px;
+}
+.signup_form_field_textarea {
+    height: 250px;
+}
+.signup_link {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon
+{
+    font-size: 70px;
+    color:dimgray;
+}
+.icon:hover
+{
+    color: black;
+}

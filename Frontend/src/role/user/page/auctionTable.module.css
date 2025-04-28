@@ -1,0 +1,92 @@
+/* Table Container */
+.table-container {
+  background-color: #ffffff; /* White background */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 25px;
+  margin-top: 40px; /* Margin from top */
+  margin-bottom: 40px; /* Margin from bottom */
+  overflow: hidden;
+}
+
+/* Table Style */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Table Header */
+.table thead {
+  background-color: #3b8e4f; /* Green background */
+  color: #fff; /* White text */
+}
+
+.table th {
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Table Body */
+.table tbody {
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.table td {
+  padding: 12px 18px;
+  font-size: 14px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Hover Effect for Rows */
+.table tbody tr:hover {
+  background-color: #e6f7e6; /* Light green background on hover */
+  cursor: pointer;
+}
+
+/* No Bids Message */
+.no-bids {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+  padding: 20px;
+}
+
+/* Column Headings Style */
+.table th {
+  text-transform: uppercase;
+}
+
+/* Bid Amount Styling */
+.bid-amount {
+  font-weight: 700;
+  color: #e91e63; /* Pink color for bid amount */
+}
+
+/* Time Column */
+.time-column {
+  font-style: italic;
+  color: #999;
+}
+
+/* Responsive Table - Smaller Screens */
+@media screen and (max-width: 768px) {
+  .table th, .table td {
+    font-size: 12px; /* Smaller text for mobile */
+    padding: 8px 12px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+}

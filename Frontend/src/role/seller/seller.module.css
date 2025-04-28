@@ -1,0 +1,21 @@
+.seller_container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_col {
+    width: 320px;
+    min-width: 350px;
+    background-color: #081a35;
+    background-size: cover;
+    background-position: center;
+}
+
+.container_col2 {
+    flex-grow: 1;
+    width: 100%;
+    overflow: auto;
+}

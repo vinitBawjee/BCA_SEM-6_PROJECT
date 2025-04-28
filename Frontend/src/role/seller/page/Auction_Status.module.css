@@ -1,0 +1,10 @@
+.auction-table {
+    width: 100%;
+    height: 800px;
+    overflow: auto;
+}
+
+tr {
+    height: 50px;
+    text-align: center;
+}

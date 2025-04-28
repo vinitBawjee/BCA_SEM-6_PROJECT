@@ -1,0 +1,71 @@
+/* Aboutus.module.css */
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.containerSection {
+  float: left;
+  width: 55%;
+}
+
+.imageSection {
+  float: right;
+  width: 40%;
+}
+
+.imageSection img {
+  width: 100%;
+  height: auto;
+}
+
+.containerSection .title {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.containerSection .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+}
+
+.containerSection .content p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.containerSection .content .button {
+  margin-top: 30px;
+}
+
+.containerSection .content .button a {
+  background-color: #3d3d3d;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.containerSection .content .button a:hover {
+  background-color: #a52a2a;
+  color: #fff;
+}
+
+.social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #5d5d5d;
+}

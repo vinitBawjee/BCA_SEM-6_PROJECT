@@ -1,0 +1,14 @@
+.main {
+    padding: 20px;
+    height: 100vh; 
+    overflow: hidden; 
+    position: relative;
+    top:2px;
+  }
+  
+  .auction-table {
+    height: 800px;
+    overflow: auto;
+    padding: 0 1rem;
+  }
+  

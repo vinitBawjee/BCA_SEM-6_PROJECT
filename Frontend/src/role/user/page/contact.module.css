@@ -1,0 +1,25 @@
+.contact_container {
+    height: 810px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_box {
+    height: 540px;
+    width: 1500px;
+}
+
+.contact_field {
+    height: 100px;
+}
+
+.contact_textarea {
+    height: 300px;
+    resize: none !important;
+}
+
+.message_box {
+    height: 200px;
+}
